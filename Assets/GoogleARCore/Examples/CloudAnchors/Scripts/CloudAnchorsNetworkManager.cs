@@ -23,6 +23,7 @@ namespace GoogleARCore.Examples.CloudAnchors
     using System;
     using UnityEngine;
     using UnityEngine.Networking;
+    using Mirror;
 
     /// <summary>
     /// A NetworkManager that handles client connection and disconnection with customizable actions.
@@ -46,6 +47,7 @@ namespace GoogleARCore.Examples.CloudAnchors
         /// </summary>
         /// <param name="conn">Connection to the server.</param>
 #pragma warning disable 618
+        //public override void OnClientConnect(NetworkConnection conn)
         public override void OnClientConnect(NetworkConnection conn)
 #pragma warning restore 618
         {

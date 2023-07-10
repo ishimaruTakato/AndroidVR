@@ -24,6 +24,9 @@ namespace GoogleARCore.Examples.CloudAnchors
     using GoogleARCore.CrossPlatform;
     using UnityEngine;
     using UnityEngine.Networking;
+    using Mirror;
+    
+
 #if ARCORE_IOS_SUPPORT
     using UnityEngine.XR.iOS;
 #endif

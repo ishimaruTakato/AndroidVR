@@ -22,6 +22,8 @@ namespace GoogleARCore.Examples.CloudAnchors
 {
     using UnityEngine;
     using UnityEngine.Networking;
+    using Mirror;
+    
 
     /// <summary>
     /// Local player controller. Handles the spawning of the networked Game Objects.
